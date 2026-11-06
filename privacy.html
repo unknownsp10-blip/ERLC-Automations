@@ -1,13 +1,62 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy | ER:LC Advanced Automation Bot</title><link rel="stylesheet" href="style.css"></head><body><main class="wrap"><nav><a href="index.html">← Policy home</a></nav><article><p class="eyebrow">DATA & PRIVACY</p><h1>Privacy Policy</h1><p class="updated">Last updated: November 5, 2026</p><div class="notice"><b>Before publishing:</b> Replace <code>[CONTACT EMAIL]</code>. Confirm the actual data stored by your deployed version and your host’s retention settings. This template describes the project’s intended design; it is not a technical audit.</div>
-<h2>1. Overview</h2><p>This Policy explains how the operator of the ER:LC Advanced Automation Bot (“the Bot”) handles information when a Discord server connects to an ER:LC private server. The Bot is designed to keep each Discord server’s configuration separate.</p>
-<h2>2. Information processed</h2><p>Depending on enabled features, the Bot may process or store:</p><ul><li><b>Discord identifiers:</b> server, channel, user, and role IDs needed for permissions and routing actions.</li><li><b>ER:LC connection information:</b> the server API key provided by an authorized administrator, connection status, and API response data.</li><li><b>Game/server information:</b> server status, player names or identifiers, teams, permissions, vehicles, queue information, command and kill logs, staff information, moderator calls, and emergency-call information, to the extent available through the API and used by enabled features.</li><li><b>Automation configuration:</b> names, triggers, conditions, actions, destinations, custom variables, cooldowns, and settings.</li><li><b>Operational records:</b> execution history, timestamps, success/failure status, and diagnostic information.</li><li><b>Interaction information:</b> information needed to respond to commands, buttons, menus, and other Bot interactions.</li></ul><p>The Bot does not need your Discord password. Never submit one.</p>
-<h2>3. How information is used</h2><p>Information is used to authenticate connections, provide Bot features, evaluate conditions, execute configured Discord or ER:LC actions, prevent duplicate executions, enforce permissions and rate limits, preserve configuration across restarts, protect the service, and diagnose errors.</p>
-<h2>4. API key protection</h2><p>The project is designed to encrypt ER:LC server API keys at rest and keep them out of Discord messages and ordinary execution logs. This depends on the operator correctly protecting the encryption key and hosting environment. Administrators should keep keys confidential and rotate exposed keys.</p>
-<h2>5. Storage and providers</h2><p>Bot configuration and operational data are stored in JSON files on the machine or hosting environment where the Bot runs. The hosting provider may process technical information such as server logs, IP addresses, and resource usage under its own policies. Discord and Roblox/ER:LC separately process information when the Bot communicates with their services. The operator does not control third-party privacy practices.</p>
-<h2>6. Sharing</h2><p>The operator does not intend to sell personal information. Information may be transmitted to Discord or ER:LC to perform actions configured by a server administrator. Information may also be disclosed when reasonably necessary to comply with law, respond to valid legal process, protect users or the service, or investigate abuse. Do not configure automations to send information to unauthorized recipients.</p>
-<h2>7. Retention and deletion</h2><p>Information is retained as long as needed to operate the Bot, preserve server configurations, maintain execution history, or address security and operational issues. Retention depends partly on hosting and backup settings. Removing an API key or deleting an automation may not erase historical records or backups. To request deletion of data associated with a Discord server, contact the operator below and identify the relevant server. Do not include API keys.</p>
-<h2>8. Security</h2><p>The project includes safeguards such as encrypted API-key storage, server-specific data separation, permission checks, and protected file writes. No internet-connected service can be guaranteed completely secure. The operator should restrict access to hosting accounts, configuration files, backups, and encryption keys.</p>
-<h2>9. Children</h2><p>The Bot is not designed to collect information directly from children. Users must comply with the age, consent, and usage requirements of Discord, Roblox/ER:LC, and applicable law.</p>
-<h2>10. International processing</h2><p>Information may be processed or stored in countries other than yours, depending on hosting location and the locations of Discord, Roblox/ER:LC, and other service providers.</p>
-<h2>11. Changes</h2><p>This Policy may be updated as the Bot’s features or data practices change. The “Last updated” date indicates the latest revision.</p>
-<h2>12. Contact</h2><p>Privacy questions and deletion requests: <b>[CONTACT EMAIL]</b>.</p><p><a href="index.html">Back to policy home →</a></p></article></main></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | ER:LC Advanced Automation Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+    <nav><a href="index.html">← Policy home</a></nav>
+    <article>
+        <p class="eyebrow">DATA & PRIVACY</p>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: November 5, 2026</p>
+
+        <h2>1. Overview</h2>
+        <p>This Privacy Policy explains how the ER:LC Advanced Automation Bot ("the Bot") handles information when a Discord server uses the Bot to connect to an ER:LC private server. The Bot is designed to keep each Discord server's configuration separate.</p>
+
+        <h2>2. Information the Bot May Process</h2>
+        <p>Depending on the features enabled, the Bot may process or store:</p>
+        <ul>
+            <li><strong>Discord identifiers:</strong> Discord server IDs, channel IDs, user IDs, and role IDs needed to check permissions, route messages, and run configured actions.</li>
+            <li><strong>ER:LC connection information:</strong> The server API key supplied by an authorized administrator, connection status, and information returned by the ER:LC API.</li>
+            <li><strong>Server and game information:</strong> Server name and status, player names or identifiers, teams, permissions, vehicles, queue information, command logs, kill logs, staff information, moderator calls, and emergency-call information, to the extent the API makes these available and relevant features are used.</li>
+            <li><strong>Automation configuration:</strong> Automation names, triggers, conditions, actions, selected Discord destinations, custom variables, cooldowns, and related settings.</li>
+            <li><strong>Operational records:</strong> Automation execution history, timestamps, success or failure status, and diagnostic information needed to operate and troubleshoot the Bot.</li>
+            <li><strong>Interaction information:</strong> Information needed to respond to commands, buttons, menus, and other interactions with the Bot.</li>
+        </ul>
+        <p>The Bot does not need your Discord password. Never submit a Discord password or other unrelated credentials to the Bot.</p>
+
+        <h2>3. How Information Is Used</h2>
+        <p>Information is used to authenticate connections, provide the Bot's features, evaluate automation conditions, execute configured Discord or ER:LC actions, prevent duplicate executions, enforce permissions and rate limits, maintain configuration after restarts, protect the service, and diagnose errors.</p>
+
+        <h2>4. API Key Protection</h2>
+        <p>The project is designed to encrypt ER:LC server API keys at rest and to keep them out of Discord messages and ordinary execution logs. Encryption depends on the operator correctly protecting the encryption key and hosting environment. Administrators should not share their API keys and should rotate a key if they believe it has been exposed.</p>
+
+        <h2>5. Storage and Service Providers</h2>
+        <p>Bot configuration and operational data are stored in JSON files on the machine or hosting environment where the Bot is deployed. The hosting provider may process technical information such as server logs, IP addresses, and resource usage under its own policies. Discord and ER:LC separately process information when the Bot communicates with their services. The Bot operator does not control their privacy practices.</p>
+
+        <h2>6. Sharing</h2>
+        <p>The operator does not intend to sell personal information. Information may be transmitted to Discord or ER:LC when needed to carry out an action configured by a server administrator. Information may also be disclosed if reasonably necessary to comply with law, respond to valid legal process, protect users or the service, or investigate abuse. Do not configure automations to send information to channels or people who should not receive it.</p>
+
+        <h2>7. Retention and Deletion</h2>
+        <p>Information is retained for as long as it is needed to operate the Bot, preserve server configurations, maintain execution history, or address security and operational issues. Retention can depend on the operator's hosting and backup settings. Removing a server's API key or deleting an automation does not necessarily erase historical records or backups.</p>
+
+        <h2>8. Security</h2>
+        <p>The project includes safeguards such as encrypted API-key storage, server-specific data separation, permission checks, and protected file writes. No internet-connected service or storage system can be guaranteed completely secure. The operator should restrict access to the hosting account, configuration files, backups, and encryption key.</p>
+
+        <h2>9. Children</h2>
+        <p>The Bot is not designed to collect information directly from children. Discord and Roblox/ER:LC have their own age requirements and policies. Users must comply with the age and consent requirements that apply to those services and their location.</p>
+
+        <h2>10. International Processing</h2>
+        <p>Depending on the Bot's hosting location and the locations of Discord, Roblox/ER:LC, and other service providers, information may be processed or stored in countries other than your own.</p>
+
+        <h2>11. Changes to This Policy</h2>
+        <p>This Policy may be updated as the Bot's features or data practices change. The "Last updated" date above indicates the latest revision. Material changes should be reflected on this page.</p>
+    </article>
+</main>
+</body>
+</html>
